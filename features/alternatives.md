@@ -1,8 +1,8 @@
 # Alternatives
 
-Here are some of the tools and services that implement similar workflows on top of GitHub pull requests, GitLab merge requests or other Git hosting solutions.
+Here are some tools and services that implement patch-based or stacked branch workflows on top of GitHub pull requests, GitLab merge requests or other Git hosting solutions.
 
-_:sort order_
+Listed in sorted order:
 
 * [GitButler's new patch based Code Review (Beta)](https://blog.gitbutler.com/gitbutlers-new-patch-based-code-review/)
 * [Graphite](https://app.graphite.dev/)
