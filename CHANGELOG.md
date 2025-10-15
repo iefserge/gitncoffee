@@ -2,6 +2,13 @@
 
 This changelog lists new features and updates in Gitpatch.
 
+## October 15, 2025
+
+* Fixed long line wrapping in diffs
+* Word diff highlights have been added
+
+<img src="image/changelog-word-diff.png" width="600" title="Word diff">
+
 ## October 4, 2025
 
 * Feedback button is now available in the menu
