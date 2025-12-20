@@ -2,15 +2,14 @@
 
 # Welcome to Gitpatch!
 
-**Gitpatch** is a cloud-based source code hosting service built to help teams move faster and
-collaborate more efficiently using Git. Gitpatch offers a unique approach to code review based on patches and patch stacks.
+**Gitpatch** is a cloud-based source code hosting and code review service built on top of Git. Gitpatch offers a unique approach to code review based on patches and patch stacks.
 
-While still in early beta, Gitpatch has been developed from scratch with performance in mind at every level. We believe it's the fastest Git service out there.
+While still in early beta, Gitpatch has been developed from scratch with performance in mind on every level.
 
 ## Features
 
 - **Git Repository Hosting:** Mirror any repository to Gitpatch by adding a remote URL and pushing it. Repository will be automatically created on the initial push.
-- **Code Review:** Submit patches for your team to review by creating named branches that begin with `patch/` and `patchstack/`.
+- **Code Review:** Submit patches to review by creating named branches that begin with `patch/` and `patchstack/`.
 - **Fast and Beautiful UI:** An unusually fast web interface to browse files, commit history and to review patches.
 
 ## Read more
@@ -28,6 +27,6 @@ While still in early beta, Gitpatch has been developed from scratch with perform
 
 ## Try It Out
 
-Gitpatch is currently in beta, and a number of important features are still being worked on. We're interested in your feedback. Email us at hi@gitpatch.com.
+Gitpatch is currently in beta, and a number of important features are still missing. Send your feedback to hi@gitpatch.com.
 
 [Sign up here](https://gitpatch.com/signup) or see example [git.git](https://gitpatch.com/gitpatch/git-demo) repository demo.

@@ -1,11 +1,8 @@
 # AI promise
 
-Gitpatch does not use or share repositories to train machine learning models. We believe repository authors and code
-owners should have a choice.
+Gitpatch does not use or share repositories to train machine learning models. But, of course, public repositories can be downloaded by external tools in any case.
 
-Of course, public repositories can be downloaded by external tools in any case.
-
-This policy is written to [Gitpatch Terms or Service](https://gitpatch.com/terms) and we do not plan to change this.
+This policy is written to [Gitpatch Terms or Service](https://gitpatch.com/terms) and will not change.
 
 ## Code Review
 
