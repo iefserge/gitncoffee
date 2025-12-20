@@ -14,10 +14,10 @@ While still in early beta, Gitpatch has been developed from scratch with perform
 
 ## Read more
 
-* [Read about our approach to performance](./features/performance.md)
-* [Read about patches and Gitpatch workflow](./features/patches.md)
+* [More about performance](./features/performance.md)
+* [More about patches and Gitpatch workflow](./features/patches.md)
 * [Read about Git hosting](./features/hosting.md)
-* [Read about our AI policy](./features/ai.md)
+* [Read about AI policy](./features/ai.md)
 * [Alternatives to Gitpatch](./features/alternatives.md)
 
 ## Guides
