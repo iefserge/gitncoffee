@@ -19,6 +19,7 @@ While still in early beta, Gitpatch has been developed from scratch with perform
 * [Read about Git hosting](./features/hosting.md)
 * [Read about AI policy](./features/ai.md)
 * [Alternatives to Gitpatch](./features/alternatives.md)
+* [Change Log](./CHANGELOG.md)
 
 ## Guides
 
