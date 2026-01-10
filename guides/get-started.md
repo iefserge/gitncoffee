@@ -1,37 +1,35 @@
-# Get Started with Gitpatch
+# Get Started with Git ‘n’ Coffee
 
 ## 1. Create an account
 
-To start using Gitpatch, sign up at https://gitpatch.com/signup. The sign up process has three steps:
+To start using Git ‘n’ Coffee, sign up at https://gitncoffee.com/signup. The sign up process has three steps:
 - Step 1: Fill in your email address and a secure password.
 - Step 2: Verify your email. Check your inbox for a short verification code.
-- Step 3: Pick a public username for your Gitpatch profile.
-
-That's it — your Gitpatch account is ready!
+- Step 3: Pick a public username for your Git ‘n’ Coffee profile.
 
 ---
 
 ## 2. Set Up SSH Access
 
-Gitpatch uses SSH for all Git operations. If you've used GitHub or GitLab before, this will feel familiar. If you don't already have an SSH key, [generate one](./generate-ssh.md).
+Git ‘n’ Coffee uses SSH for all Git operations. If you've used GitHub or GitLab before, this will feel familiar. If you don't already have an SSH key, [generate one](./generate-ssh.md).
 
-### Add Your SSH Key to Gitpatch
+### Add Your SSH Key to Git ‘n’ Coffee
 
-Open the [Settings](https://gitpatch.com/settings) page on Gitpatch (after logging in).
+Open the [Settings](https://gitncoffee.com/settings) page on Git ‘n’ Coffee (after logging in).
 
 <img src="../image/add-ssh-methods.png" width="400" title="Add SSH methods">
 
-Gitpatch supports two methods of adding your SSH key:
-- Automatic. Gitpatch can automatically add your SSH key when you connect to it with the special username and a one-time token.
+Git ‘n’ Coffee supports two methods of adding your SSH key:
+- Automatic. Git ‘n’ Coffee can automatically add your SSH key when you connect to it with the special username and a one-time token.
 	- Click "Add SSH key automatically"
 	- Copy and run the provided SSH command in your terminal:
 		```
-		ssh token:***@gitpatch.com
+		ssh token:***@gitncoffee.com
 		```
-	- This works because every time you connect to an SSH server, your SSH client offers public keys to the server. In this case, Gitpatch is going to authorize and add the first provided key to your account. Example command output:
+	- This works because every time you connect to an SSH server, your SSH client offers public keys to the server. In this case, Git ‘n’ Coffee is going to authorize and add the first provided key to your account. Example command output:
 	  ```
 		** Added public key to your account: SHA256:<fingerprint> (ssh-ed25519).
-	    ** This key is not enabled yet. Please verify and enable it on https://gitpatch.com/settings page.
+	    ** This key is not enabled yet. Please verify and enable it on https://gitncoffee.com/settings page.
 	  ```
 	- _Note: For security, automatically added SSH keys with this method are disabled by default._ Click "Enable" to enable the key.
 
@@ -55,8 +53,8 @@ touch README.md
 git add README.md
 git commit -m "Initial commit"
 
-# Add Gitpatch as a remote
-git remote add origin git@gitpatch.com:<username>/my-project
+# Add Git ‘n’ Coffee as a remote
+git remote add origin git@gitncoffee.com:<username>/my-project
 
 # Push to create the repository
 git push -u origin main

@@ -1,24 +1,24 @@
-<img src="image/logo.png" width="120" title="Gitpatch">
+<img src="image/logo.png" width="120" title="Git ‘n’ Coffee">
 
-# Welcome to Gitpatch!
+# Welcome to Git ‘n’ Coffee!
 
-**Gitpatch** is a cloud-based source code hosting and code review service built on top of Git. Gitpatch offers a unique approach to code review based on patches and patch stacks.
+**Git ‘n’ Coffee** is a cloud-based source code hosting and code review service built on top of Git.
+It offers a unique approach to code review based on patches and patch stacks.
 
-While still in early beta, Gitpatch has been developed from scratch with performance in mind on every level.
+While still in early beta, Git ‘n’ Coffee has been developed from scratch with extreme focus on performance.
 
 ## Features
 
-- **Git Repository Hosting:** Mirror any repository to Gitpatch by adding a remote URL and pushing it. Repository will be automatically created on the initial push.
+- **Git Repository Hosting:** Mirror any repository to Git ‘n’ Coffee by adding a remote URL and pushing it. Repository will be automatically created on the initial push.
 - **Code Review:** Submit patches to review by creating named branches that begin with `patch/` and `patchstack/`.
 - **Fast and Beautiful UI:** An unusually fast web interface to browse files, commit history and to review patches.
 
 ## Read more
 
 * [More about performance](./features/performance.md)
-* [More about patches and Gitpatch workflow](./features/patches.md)
+* [More about patches](./features/patches.md)
 * [Read about Git hosting](./features/hosting.md)
 * [Read about AI policy](./features/ai.md)
-* [Alternatives to Gitpatch](./features/alternatives.md)
 * [Change Log](./CHANGELOG.md)
 
 ## Guides
@@ -28,6 +28,6 @@ While still in early beta, Gitpatch has been developed from scratch with perform
 
 ## Try It Out
 
-Gitpatch is currently in beta, and a number of important features are still missing. Send your feedback to hi@gitpatch.com.
+Git ‘n’ Coffee is currently in beta, and a number of important features are still missing. Send your feedback to hi@gitncoffee.com.
 
-[Sign up here](https://gitpatch.com/signup) or see example [git.git](https://gitpatch.com/gitpatch/git-demo) repository demo.
+[Sign up here](https://gitncoffee.com/signup) or see example [git.git](https://gitncoffee.com/gitncoffee/git-demo) repository demo.

@@ -1,6 +1,12 @@
 # Changelog
 
-This changelog lists new features and updates in Gitpatch.
+This changelog lists new features and updates in Git ‘n’ Coffee.
+
+## January 10, 2026
+
+* Project has been renamed to Git ‘n’ Coffee
+* Existing links to gitpatch.com should continue to work and redirect to gitncoffee.com
+* Bug fixes and improvements
 
 ## December 20, 2025
 
