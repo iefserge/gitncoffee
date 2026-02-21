@@ -2,6 +2,36 @@
 
 This changelog lists new features and updates in Git ‘n’ Coffee.
 
+## February 22, 2026
+
+* Visual updates to comments and events UI. Similar events are now grouped and de-duplicated.
+* Bug fixes and improvements
+
+## February 17, 2026
+
+<img src="image/changes.png" width="400" title="Changes">
+
+* Change ID system inspired by Jujutsu has been introduced. It replaces older patch and patch stack system.
+    Read more about [changes](./features/changes.md). New system is more-less a superset of the older system
+    and allows much more flexibility when collaborating on changes.
+* There are only two types of branches now: regular long lived branches and special branches for change reviews.
+    Changes can be submitted using branches named `change/*` or `push-*` (and prefixed variant `*/push-*`)
+    `patchstack/*` branches are still supported, but deprecated. All special named branches do the same thing.
+* Branches no longer have 1-to-1 mapping to patches (changes). The same change can be updated using any branch. In
+    general, branches and their names are less important than the contents of each push.
+* Patches built from squashing multiple commits on the branch are no longer supported. `patch/*` is still supported and
+    now is the same as `change/*` which creates a change per commit. `patch/*` may be deprecated in the future.
+* Code review system has been simplified. Code review now applies to the entire change, not a specific version of it.
+    Code review still records the version that was approved however.
+* New "ack" review state has been added. It's something in between of not-approved and approved. Precise meaning
+    of it is not specified and can be different for each team.
+* Sidebar no longer shows each patch (change) separately. Changes in the sidebar are now grouped by their change tree.
+    Each group is labeled by the first change in it. In the future, there will be an option to add a title and
+    description to it (aka cover letter).
+* Change trees are now versioned. Any update to the tree increments its version.
+* Comment input boxes use monospace font now
+* Various other UI improvements
+
 ## January 10, 2026
 
 * Project has been renamed to Git ‘n’ Coffee

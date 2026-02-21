@@ -2,21 +2,31 @@
 
 # Welcome to Git ‘n’ Coffee!
 
-**Git ‘n’ Coffee** is a cloud-based source code hosting and code review service built on top of Git.
-It offers a unique approach to code review based on patches and patch stacks.
+_Caffeinated Jujutsu-flavored take on Git._
 
-While still in early beta, Git ‘n’ Coffee has been developed from scratch with extreme focus on performance.
+Git ‘n’ Coffee is a source code hosting and code review service built on top of Git repository format
+and network protocol. It supports any version control system that can talk Git protocol.
+
+Git ‘n’ Coffee offers a commit-based collaboration and code review workflow using Jujutsu-style Change IDs.
+This makes it possible to share and review entire stacks of changes. Multiple people can
+collaborate on the same stack, without overwriting each other's work.
+
+Currently, only cloud-based version is available. In the future, self-hostable version is planned to be released.
+
+Git ‘n’ Coffee is built from scratch with heavy focus on performance.
 
 ## Features
 
-- **Git Repository Hosting:** Mirror any repository to Git ‘n’ Coffee by adding a remote URL and pushing it. Repository will be automatically created on the initial push.
-- **Code Review:** Submit patches to review by creating named branches that begin with `patch/` and `patchstack/`.
-- **Fast and Beautiful UI:** An unusually fast web interface to browse files, commit history and to review patches.
+- **Repository Hosting:** Mirror any repository to Git ‘n’ Coffee by pushing to the remote URL.
+    Repository will be automatically created on the first push.
+- **Code Review:** Submit changes for review by pushing named branches that
+    begin with `change/*` or `push-*` (Jujutsu-style push branches). These branches are processed differently from
+    regular long lived branches.
+- **Fast and Beautiful UI:** An unusually fast web interface to browse files, commit history and to review changes.
 
 ## Read more
 
-* [More about performance](./features/performance.md)
-* [More about patches](./features/patches.md)
+* [More about changes](./features/changes.md)
 * [Read about Git hosting](./features/hosting.md)
 * [Read about AI policy](./features/ai.md)
 * [Change Log](./CHANGELOG.md)
@@ -28,6 +38,8 @@ While still in early beta, Git ‘n’ Coffee has been developed from scratch wi
 
 ## Try It Out
 
-Git ‘n’ Coffee is currently in beta, and a number of important features are still missing. Send your feedback to hi@gitncoffee.com.
+Git ‘n’ Coffee is currently in beta, and many important features are still missing.
+Send your feedback to hi@gitncoffee.com.
 
-[Sign up here](https://gitncoffee.com/signup) or see example [git.git](https://gitncoffee.com/gitncoffee/git-demo) repository demo.
+[Sign up here](https://gitncoffee.com/signup) or see example
+[git.git](https://gitncoffee.com/gitncoffee/git-demo) repository demo.
