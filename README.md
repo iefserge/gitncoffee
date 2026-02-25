@@ -38,8 +38,10 @@ Git ‘n’ Coffee is built from scratch with heavy focus on performance.
 
 ## Try It Out
 
+Join [Discord](https://discord.gg/9qr6cUm4bu).
+
 Git ‘n’ Coffee is currently in beta, and many important features are still missing.
 Send your feedback to hi@gitncoffee.com.
 
-[Sign up here](https://gitncoffee.com/signup) or see example
-[git.git](https://gitncoffee.com/gitncoffee/git-demo) repository demo.
+You can [sign up here](https://gitncoffee.com/signup) or see example
+[git.git](https://gitncoffee.com/gitncoffee/git-demo) repository.
