@@ -2,6 +2,10 @@
 
 This changelog lists new features and updates in Git ‘n’ Coffee.
 
+## March 1, 2026
+
+* Update file, diff layout and syntax color scheme to improve readability.
+
 ## February 22, 2026
 
 * Visual updates to comments and events UI. Similar events are now grouped and de-duplicated.
