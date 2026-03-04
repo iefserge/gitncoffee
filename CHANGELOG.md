@@ -2,6 +2,13 @@
 
 This changelog lists new features and updates in Git ‘n’ Coffee.
 
+## March 3, 2026
+
+* Public repositories can now be cloned using HTTPS protocol. Currently, only fetch operations
+    are supported. Pushing code with `git push` still requires SSH connection.
+
+<img src="image/changelog-https-clone.png" width="400" title="Changes">
+
 ## March 1, 2026
 
 * Update file, diff layout and syntax color scheme to improve readability.
